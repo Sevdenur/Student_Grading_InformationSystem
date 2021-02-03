@@ -26,7 +26,6 @@ namespace Student_Grading_Information_System
             this.studentsTableAdapter.Fill(this.grade_Information_DbDataSet.Students);
         }
 
-
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             int chosen = dataGridView1.SelectedCells[0].RowIndex;
